@@ -5,10 +5,13 @@ payload:
   - DOMAIN-SUFFIX,520cc.cc
   - DOMAIN-SUFFIX,flurry.com
   - DOMAIN-SUFFIX,koolshare.cn
+  - DOMAIN-SUFFIX,exp-tas.com
   - DOMAIN-SUFFIX,vscode-cdn.net
   - DOMAIN-SUFFIX,vscode-unpkg.net
-  - DOMAIN,p25-acsegateway.icloud.com.cn
+  - DOMAIN-SUFFIX,github.dev
   - DOMAIN,winget.azureedge.net
+  - DOMAIN,p25-acsegateway.icloud.com.cn
+  - DOMAIN-SUFFIX,jsdelivr.net
 
   # github
   - IP-CIDR,20.205.243.166/24,no-resolve
