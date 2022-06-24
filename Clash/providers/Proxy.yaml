@@ -12,6 +12,8 @@ payload:
   - DOMAIN,winget.azureedge.net
   - DOMAIN,p25-acsegateway.icloud.com.cn
   - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN,acme-v02.api.letsencrypt.org
+
 
   # github
   - IP-CIDR,20.205.243.166/24,no-resolve
