@@ -1,0 +1,74 @@
+{
+    "id": "inetcp.boxjs",
+    "name": "inetcp 应用订阅",
+    "author": "@inetcp",
+    "icon": "https://avatars.githubusercontent.com/u/10843393?v=4",
+    "repo": "https://github.com/inetcp/Rules/tree/main/Loon/",
+    "apps": [
+        {
+            "id": "inetcp.boxjs.ssid",
+            "name": "SSID",
+            "author": "@inetcp",
+            "repo": "https://github.com/inetcp/Profiles/blob/main/Loon/ssid.js",
+            "script": "https://raw.githubusercontent.com/inetcp/Profiles/main/Loon/ssid.js",
+            "desc_html": "<h2>根据 SSID 进行网络切换</h2><br/>注意：所有配置项均为json格式<br/>配置说明：<br/><a href='https://github.com/inetcp/Rules/tree/main/Loon'>https://github.com/inetcp/Rules/tree/main/Loon</a>",
+            "keys": [],
+            "settings": [
+                {
+                    "id": "inetcp.boxjs.ssid.notificationMode",
+                    "name": "通知模式",
+                    "val": "All",
+                    "type": "radios",
+                    "items": [
+                        {
+                            "label": "关闭通知",
+                            "key": "None"
+                        },
+                        {
+                            "label": "所有通知",
+                            "key": "All"
+                        },
+                        {
+                            "label": "匹配到配置",
+                            "key": "Matched"
+                        },
+                        {
+                            "label": "未匹配到配置",
+                            "key": "NotMatched"
+                        }
+                    ]
+                },
+                {
+                    "id": "inetcp.boxjs.ssid.modelList",
+                    "name": "网络切换配置",
+                    "val": "{\n    \"ssid名称\": {\n        \"runningModel\": \"GlobalDirect\",\n        \"selectPolicy\": {\n            \"Proxy\": \"DIRECT\",\n            \"Google\": \"Proxy\"\n        }\n    }\n}",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 5,
+                    "placeholder": "{ \"ssid名称\": { \"runningModel\": \"GlobalDirect\", \"selectPolicy\": { \"Proxy\": \"DIRECT\", \"Google\": \"Proxy\" } } }",
+                    "desc": "\"runningModel\"可选值: \"GlobalDirect\"|\"ByRule\"|\"GlobalProxy\""
+                },
+                {
+                    "id": "inetcp.boxjs.ssid.cellularModel",
+                    "name": "蜂窝网络配置",
+                    "val": "{\n    \"selectPolicy\": {\n        \"节点选择\": \"节点名称或其他策略名称\"\n    }\n}",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 2,
+                    "placeholder": "{ \"selectPolicy\": { \"节点选择\": \"节点名称或其他策略名称\" } }",
+                    "desc": "默认行为，所有未配置的网络状态变更都执行此操作。"
+                },
+                {
+                    "id": "inetcp.boxjs.ssid.defaultModel",
+                    "name": "默认配置",
+                    "val": "{\n    \"selectPolicy\": {\n        \"节点选择\": \"节点名称或其他策略名称\"\n    }\n}",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 2,
+                    "placeholder": "{ \"selectPolicy\": { \"节点选择\": \"节点名称或其他策略名称\" } }",
+                    "desc": "默认行为，所有未配置的网络状态变更都执行此操作。"
+                }
+            ]
+        }
+    ]
+}
