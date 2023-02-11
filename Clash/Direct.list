@@ -2,8 +2,8 @@ DOMAIN-SUFFIX,102323.xyz
 DOMAIN-SUFFIX,my.home
 
 IP-CIDR,193.122.100.4/24,no-resolve
-IP-CIDR,152.70.37.16/24,no-resolve
 IP-CIDR,131.186.27.73/24,no-resolve
+IP-CIDR,152.70.37.16/24,no-resolve
 IP-CIDR,20.254.1.9/24,no-resolve
 IP-CIDR,20.253.1.23/24,no-resolve
 IP-CIDR,20.253.1.24/24,no-resolve
