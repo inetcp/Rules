@@ -1,6 +1,5 @@
 payload:
   - DOMAIN-SUFFIX,jav777.xyz
-  - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,koolshare.cn
   - DOMAIN-SUFFIX,exp-tas.com
   - DOMAIN-SUFFIX,vscode-cdn.net
@@ -9,6 +8,10 @@ payload:
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN,winget.azureedge.net
   - DOMAIN,acme-v02.api.letsencrypt.org
+
+  # chatGPT
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,ai.com
 
   # github
   - IP-CIDR,20.205.243.166/24,no-resolve
