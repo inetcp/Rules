@@ -3,7 +3,7 @@ payload:
   - DOMAIN-SUFFIX,my.home
   
   - IP-CIDR,193.122.100.4/24,no-resolve
-  - IP-CIDR,132.226.226.243/24,no-resolve
+  - IP-CIDR,131.186.16.249/24,no-resolve
   - IP-CIDR,20.254.1.9/24,no-resolve
   - IP-CIDR,20.253.1.23/24,no-resolve
   - IP-CIDR,20.253.1.24/24,no-resolve
