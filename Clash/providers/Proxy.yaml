@@ -9,6 +9,9 @@ payload:
   - DOMAIN,winget.azureedge.net
   - DOMAIN,acme-v02.api.letsencrypt.org
 
+  # anki
+  - DOMAIN-SUFFIX,ankiweb.net
+
   # chatGPT
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,ai.com
