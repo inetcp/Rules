@@ -1,6 +1,7 @@
 DOMAIN-SUFFIX,102323.xyz
 DOMAIN-SUFFIX,my.home
 DOMAIN,stun.easyvoip.com
+DOMAIN,bat.bing.com
 
 IP-CIDR,146.56.129.135/24,no-resolve
 IP-CIDR,140.238.28.243/24,no-resolve
