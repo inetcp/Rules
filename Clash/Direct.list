@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,my.home
 DOMAIN,stun.easyvoip.com
 DOMAIN,bat.bing.com
 DOMAIN-SUFFIX,wogg.net
+DOMAIN,wogg.xxooo.cf
 DOMAIN-SUFFIX,copilot.supercopilot.top
 
 IP-CIDR,146.56.129.135/24,no-resolve
