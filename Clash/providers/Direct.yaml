@@ -12,7 +12,7 @@ payload:
   - DOMAIN-SUFFIX,cmbimg.com
   - DOMAIN-SUFFIX,joying.com
   - DOMAIN-SUFFIX,bestwehotel.com
-  - DOMAIN-SUFFIX,zdming.com
+  - DOMAIN-SUFFIX,zdmimg.com
   
   - IP-CIDR,146.56.129.135/24,no-resolve
   - IP-CIDR,140.238.28.243/24,no-resolve
