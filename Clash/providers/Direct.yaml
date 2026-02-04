@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,bestwehotel.com
   - DOMAIN-SUFFIX,zdmimg.com
   - DOMAIN-SUFFIX,gjmet.com
+  - DOMAIN-SUFFIX,dida365.com
   
   - IP-CIDR,140.238.3.151/24,no-resolve
   - IP-CIDR,64.110.65.77/24,no-resolve
@@ -20,4 +21,5 @@ payload:
   - IP-CIDR,20.254.1.9/24,no-resolve
   - IP-CIDR,20.253.1.23/24,no-resolve
   - IP-CIDR,20.253.1.24/24,no-resolve
+
 
