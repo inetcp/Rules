@@ -4,7 +4,6 @@ DOMAIN,bat.bing.com
 DOMAIN-SUFFIX,wogg.net
 DOMAIN,wogg.xxooo.cf
 DOMAIN-SUFFIX,copilot.supercopilot.top
-DOMAIN,grpc.biliapi.net
 DOMAIN,comm.app.autohome.com.cn
 DOMAIN-SUFFIX,ngarihealth.com
 DOMAIN-SUFFIX,cmbimg.com
@@ -13,6 +12,13 @@ DOMAIN-SUFFIX,bestwehotel.com
 DOMAIN-SUFFIX,zdmimg.com
 DOMAIN-SUFFIX,gjmet.com
 DOMAIN-SUFFIX,dida365.com
+DOMAIN-SUFFIX,eafutures.com
+DOMAIN-SUFFIX,founderfu.com
+DOMAIN-SUFFIX,wkjyqh.com
+DOMAIN-SUFFIX,shmet.com
+DOMAIN-SUFFIX,gjmet.com
+DOMAIN-SUFFIX,sinopecgroup.com
+DOMAIN-SUFFIX,feidee.com
 
 IP-CIDR,140.238.3.151/24,no-resolve
 IP-CIDR,140.238.28.243/24,no-resolve
